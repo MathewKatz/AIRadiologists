@@ -8,12 +8,12 @@ This project was released on 2/10/2021, so the statistics represented below migh
 Below is a table of contents, which contains the file name, file order, and file description. The file order column represents which order the files should be opened and read. File Order 1 should be started with. 
 
 |File Name|File Order||File Description|
-|---------|----------||----------------|
-|README.md|1| The README file contains the executive summary and overview of the project as a whole.|
-|COVID-19 Radiography Database|2| This file directory contains all of the images used during model training, validation and testing. The directory is broken into training and testing subdirectories, which are subsequently broken into subdirectories constituting the 3 different classes.|
-|cnn-modeling_v2.ipynb|3| The cnn-modeling.ipynb contains all iterations of convolutional neural net models our team trained in order to get to the final production model.|
-|powerpoint-presentation.pdf|4| A pdf containing the powerpoint slides our team used during project presentations.|
-
+|:-------:|:--------:||:--------------:|
+|README.md|1| The README file contains the executive summary and overview of the project as a whole.  |
+|COVID-19 Radiography Database|2| File directory contains all of the images used during model training.  |
+|cnn-modeling_v2.ipynb|3| The cnn-modeling.ipynb contains all iterations of convolutional neural net models trained.  |
+|powerpoint-presentation.pdf|4| A pdf containing the powerpoint slides our team used during project presentations.  |
+|model-visualizations|5| A directory containing two images on accuracy and recall scores from the final production model.  |
 
 
 #### The Problem
@@ -40,8 +40,7 @@ The dataset of anterior-posterior and posterior-anterior chest x-rays was obtain
 
 Each image in the testing, validation, and testing dataset was rescaled and standardized to get pixel values between [0,1]. Below is an example of the radiography our team was using in the convolution neural network modeling. This image is an anterior-posterior chest x-ray from the Normal class. In this chest x-ray, the extending branches of the bronchi of the lungs are clearly seen and without ground glass or consolidation presentation has been classified as medical professionals as normal. 
 
-<img src="COVID-19 Radiography Database Split/TRAIN/NORMAL_train/NORMAL (17).png" width ="400" height=400>
-
+<img src="COVID-19 Radiography Database Split/TRAIN/NORMAL_train/NORMAL (17).png" width ="400" height="400">
 
 
 #### Final Production Model
@@ -49,11 +48,11 @@ The final production model consisted of the following neural network architectur
 
 The visualization below shows how the accuracy of the training data and validation data changed as the CNN model was trained over 15 epochs. As the CNN model continued to train over each epoch, we can see that the training accuracy continued to go increase - as the model became more and more specifically trained to that set of data. The validation accuracy, however, plateaued at around 95% accuracy. 
 
-<img src = "model-visualizations/final-model-acc.png" width=700 height=700>
+<img src = "model-visualizations/final-model-acc.png" width="500" height="500">
 
 The next visualization, shown below, graphs how the recall score of both the training and validation data changed over the 15 epoch training period. Similarly to the accuracy graph above, the training recall continued to climb, as the CNN model became more trained on that set of data. Also similarly, the recall score of the validation data plateaued, in almost the exact same pattern as accuracy, at a 95% recall score.  
 
-<img src = "model-visualizations/final-model-recall.png" width=700 height=700>
+<img src = "model-visualizations/final-model-recall.png" width="500" height="500">
 
 #### The Conclusion
 Our venture to create a classifier which performed above the null model was successful. The final production model was successfuly classifying the Covid-19 pneumonia, viral pneumonia, and normal classes. Our team culminates everything we have learned into this statement: while not to be used as the sole diagnostic tool, a powerful predictor, such as a CNN, can be used to add additional confidence to diagnoses made by radiologists and guide radiological thinking. 
