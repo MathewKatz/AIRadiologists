@@ -7,13 +7,13 @@ This project was released on 2/10/2021, so the statistics represented below migh
 ### Table of Contents
 Below is a table of contents, which contains the file name, file order, and file description. The file order column represents which order the files should be opened and read. File Order 1 should be started with. 
 
-|File Name|File Order||File Description|
-|:-------:|:--------:||:--------------:|
-|README.md|1| The README file contains the executive summary and overview of the project as a whole.  |
-|COVID-19 Radiography Database|2| File directory contains all of the images used during model training.  |
-|cnn-modeling_v2.ipynb|3| The cnn-modeling.ipynb contains all iterations of convolutional neural net models trained.  |
-|powerpoint-presentation.pdf|4| A pdf containing the powerpoint slides our team used during project presentations.  |
-|model-visualizations|5| A directory containing two images on accuracy and recall scores from the final production model.  |
+**File Name**|**File Order**|**File Description**
+:-----:|:-----:|:-----:
+README.md|1|The README file contains the executive summary and overview of the project as a whole.
+COVID-19 Radiography Database|2|File directory contains all of the images used during model training.
+cnn-modeling\_v2.ipynb|3|The cnn-modeling.ipynb contains all iterations of convolutional neural net models trained.
+powerpoint-presentation.pdf|4|A pdf containing the powerpoint slides our team used during project presentations.
+model-visualizations|5|A directory containing two images on accuracy and recall scores from the final production model.
 
 
 #### The Problem
