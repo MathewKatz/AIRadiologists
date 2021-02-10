@@ -9,12 +9,12 @@ Below is a table of contents, which contains the file name, file order, and file
 
 **File Name**|**File Order**|**File Description**
 :-----:|:-----:|:-----:
-README.md|1|The README file contains the executive summary and overview of the project as a whole.
-COVID-19 Radiography Database|2|File directory contains all of the images used during model training.
-cnn-modeling\_v2.ipynb|3|The cnn-modeling.ipynb contains all iterations of convolutional neural net models trained.
-powerpoint-presentation.pdf|4|A pdf containing the powerpoint slides our team used during project presentations.
-model-visualizations|5|A directory containing two images on accuracy and recall scores from the final production model.
-
+COVID-19 Radiography Database|1|File directory contains all of the images used during model training.
+model-visualizations|2|A directory containing two images on accuracy and recall scores from the final production model.
+README.md|3|The README file contains the executive summary and overview of the project as a whole.
+cnn-modeling\_v2.ipynb|4|The cnn-modeling.ipynb contains all iterations of convolutional neural net models trained.
+powerpoint-presentation.pdf|5|A pdf containing the powerpoint slides our team used during project presentations.
+requirements.txt|6|The Python modules you need to read the notebook.
 
 #### The Problem
 The world at large is currently in the midst of one of the largest healthcare crises since the 1918 Spanish flu. At the release of this project, hospitals, both rural and urban, all over the United States are undergoing extreme stress due to Covid-19 hospitalizations.  A [dataset](https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-facility) recently released by the federal government of the United States contains the capacity reports for 2,200 counties nationwide. According to this data, 126 of the 2,200 counties have average hospital capacities above 90%. 
