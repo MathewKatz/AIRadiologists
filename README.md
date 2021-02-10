@@ -43,7 +43,6 @@ Each image in the testing, validation, and testing dataset was rescaled and stan
 <img src="COVID-19 Radiography Database Split/TRAIN/NORMAL_train/NORMAL (17).png" width ="400" height="400">
 
 
-
 #### Final Production Model
 The final production model consisted of the following neural network architecture: data augmentation of the training data, a convolutional layer for edge detection, and a single hidden layer of 300 nodes.The output layer activation was 'softmax', therefore the class prediction is based on the highest probability in a vector containing probability values for each of the three classes. The final model scored approximately 93.5% on both accuracy and recall. This model was chosen as the final because it produced the highest pair-wise scores on both accuracy and recall.
 
